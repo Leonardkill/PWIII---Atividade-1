@@ -1,12 +1,11 @@
 let numero = 100;
-let resto = numero % 2;
 
-let calcular = function (numero ){
-if(resto == 0){
+let calcular = function (num:number ){
+if(num % 2 == 0){
     console.log("par")
 }
 else{
     console.log("impar")
 }
 }
-console.log("O número é " + calcular(numero))
+console.log(calcular(numero))
