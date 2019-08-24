@@ -1,4 +1,4 @@
-class Piscina {
+export class Piscina {
 
     constructor (public diametro , public custoConstrucao) {
 
@@ -9,8 +9,8 @@ class Piscina {
     }
 
     area () {
-        let pi = 3.14
-        return pi * (this.raio() * this.raio())
+        return 3.141592 * (this.raio() * this.raio())
+         
     }
 
     custoTotal () {
